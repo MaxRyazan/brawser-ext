@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+    <div class="my-ext">
+        <div class="my-ext__container">
+            <input class="my-ext__lang" type="text" autofocus placeholder="Категория"/>
+            <input class="my-ext__theme" type="text" placeholder="Тема"/>
+            <textarea  class="my-ext__textarea" placeholder="Описание"></textarea>
+            <button class="my-ext__btn">Сохранить</button>
+        </div>
+        <div class="my-ext__all">
+            <div class="my-ext__filter-container">
+                <input type="text" class="my-ext__filter-by-category" placeholder="Фильтровать по категории" />
+            </div>
+            <div class="my-ext__rendered-links">
+                <div class="my-ext__item">
+                    <a href="#" class="my-ext__item-inner my-href">Ссылка</a>
+                    <span class="my-ext__item-inner my-lang">Категория</span>
+                    <span class="my-ext__item-inner my-theme">Тема</span>
+                    <span class="my-ext__item-inner my-desc">Описание</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button class="my-ext__btn my-ext__btn-show-menu my-ext-hide">Показать меню сохранения ссылки</button>
+    <button class="my-ext__btn my-ext__btn-hide-menu">Скрыть меню сохранения ссылки</button>
+    <button class="my-ext__btn my-ext__btn2">Показать все сохранённые ссылки</button>
+<script src="script.js"></script>
+</body>
+</html>

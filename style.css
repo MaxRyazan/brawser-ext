@@ -1,0 +1,115 @@
+body {
+    padding: 0;
+    margin: 0;
+    width: 780px;
+    background-color: #121212;
+}
+.my-ext {
+    display: flex;
+    padding: 5px;
+    width: calc(100% - 10px);
+}
+.my-ext__all {
+    padding: 5px;
+    flex-grow: 1;
+}
+.my-ext__item{
+    display: flex;
+    gap: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.my-ext__item-inner {
+    padding: 5px;
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+    color: white;
+    flex-grow: 1;
+}
+.my-href {
+    cursor: pointer;
+    width: 50px;
+    max-width: 50px;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+}
+.my-lang {
+    cursor: default;
+    width: 50px;
+    max-width: 50px;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+}
+.my-theme {
+    cursor: default;
+    width: 150px;
+    max-width: 150px;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+}
+.my-desc {
+    cursor: default;
+    overflow: hidden;
+    white-space: nowrap;
+    max-height: 100%;
+}
+.my-ext__container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.my-ext__btn {
+    color: lawngreen;
+    background-color: transparent;
+    border: 1px solid lawngreen ;
+    cursor: pointer;
+    border-radius: 6px;
+    margin: 5px;
+}
+.my-ext__btn:hover {
+    color: #00f58e;
+    border: 1px solid #00f58e ;
+}
+.my-ext__btn-show-menu,
+.my-ext__btn-hide-menu,
+.my-ext__btn2{
+    width: 250px;
+    padding: 10px
+}
+.my-ext__lang,
+.my-ext__filter-by-category,
+.my-ext__theme{
+    background-color: transparent;
+    color: lawngreen;
+    outline: none;
+    border: 1px solid lawngreen;
+    padding: 4px 8px;
+    border-radius: 6px;
+}
+.my-ext__textarea {
+    width: 100%;
+    height: 90px;
+    background-color: transparent;
+    color: lawngreen;
+    border: 1px solid lawngreen;
+    outline: none;
+    padding: 4px 8px;
+}
+.my-ext-hide {
+    display: none;
+}
+
+.my-ext__filter-container {
+    margin-bottom: 10px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.my-ext__filter-by-category {
+    width: 300px;
+}
