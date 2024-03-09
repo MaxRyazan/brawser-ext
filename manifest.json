@@ -2,11 +2,15 @@
   "manifest_version" : 3,
   "name": "Href saver",
   "version": "1.0",
+  "description": "Расширение для сохранения ссылок на страницы браузера",
   "permissions": ["scripting", "activeTab", "storage"],
+  "icons": {
+    "16": "img.png",
+    "32": "img.png",
+    "48": "img.png",
+    "128": "img.png"
+  },
   "action": {
     "default_popup": "popup.html"
-  },
-  "background" : {
-    "service_worker": "background.js"
   }
 }
